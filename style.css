@@ -1,0 +1,540 @@
+body {
+  font-family: poppins;
+  
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.navbar-brand img {
+  width: 9.25rem;
+  height: 2.5rem;
+}
+.navcntnt {
+  padding: 40px 70px 0px;
+}
+nav .btnes {
+  gap: 20px;
+}
+nav .drop {
+  background-color: transparent;
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-radius: 0.1875rem;
+  color: white;
+  padding: 6px 36px;
+}
+nav .signbtn {
+  color: white;
+  padding: 6px 18px;
+}
+
+nav .signbtn {
+  background-color: red;
+}
+nav .signbtn:hover {
+  background-color: red;
+  box-shadow: 0px;
+}
+.banner {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.603) 0,
+      rgba(0, 0, 0, 0.559) 60%,
+      rgba(0, 0, 0, 0.648) 100%
+    ),
+    url(./images/banner\ image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 100vh;
+}
+.content {
+height: 80vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+  
+}
+.content h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.content h4 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.contentbtn {
+  justify-content: center;
+  display: flex;
+}
+.mail {
+  padding: 0 10px;
+}
+.mail input {
+  padding: 15px 200px 18px 10px;
+  background-color: rgba(46, 44, 44, 0.562);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.76);
+  font-size: 16px;
+
+}
+.mail input:hover {
+ padding: 15px 200px 18px 10px;
+  background-color: rgba(31, 29, 29, 0.489);
+  color: white;
+  border: 2px solid;
+}
+.getstartedbtn {
+  padding: 10px 30px;
+  background-color: red;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 600;
+
+}
+.getstartedbtn:hover {
+  background-color: red;
+}
+
+.mail ::placeholder {
+  color: rgba(240, 248, 255, 0.591);
+}
+.section2{
+  background-color: #000000;
+  border-bottom: solid 10px #232323;
+  border-top: solid 10px #232323;
+
+}
+.enjoy{
+  background-color: #000000;
+  color: white;
+  
+}
+.section2 h2{
+ font-size: 48px;
+ font-weight: 900;
+ 
+}
+.section2 p{
+  font-size: 24px;
+  font-weight: 400;
+  text-align: start;
+}
+.sec2{
+  margin: 0 75px;
+  padding: 72px 0;
+}
+.section3{
+  background-color: #000000;
+  border-bottom: solid 10px #232323;
+}
+
+.section3 h2{ 
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.section3 p{
+  font-size: 24px;
+  font-weight: 400;
+  text-align: start;
+}
+.stranger{
+  position: relative;
+}
+.boxcard{
+  display: flex;
+  padding: 8px 12px ;
+  border: 2px solid rgba(128,128,128,0.7);
+  box-shadow: 0 0 2em 0 rgb(0,0,0);
+  border-radius: 0.75rem;
+  position: absolute;
+  z-index: 1;    
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  left: 18%;
+  bottom: 30px;
+  background-color: #000000;
+  width: 316px;
+}
+
+.img1{
+  width:60px;
+}
+.img2{
+  width:48px
+}
+.things1{
+  line-height: 2px;
+  padding-top: 18px;
+  padding-right: 20px;
+}
+
+p.things{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+p.download{
+  font-size: 14px;
+  color: blue;
+}
+
+
+.section4{
+  background-color: #000000;
+  border-bottom: solid 10px #232323;
+}
+
+.section4 h2{ 
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.section4 p{
+  font-size: 24px;
+  font-weight: 400;
+  text-align: start;
+}
+
+
+.section5{
+  background-color: #000000;
+  border-bottom: solid 10px #232323;
+}
+
+.section5 h2{ 
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.section5 p{
+  font-size: 24px;
+  font-weight: 400;
+  text-align: start;
+}
+.section2 video{
+  width: 100%;
+}
+.section4 video{
+  width: 100%;
+}
+.section6{
+  background-color: #000000;
+  border-bottom: solid 10px #232323;
+}
+.sec3 {
+  margin: 0 75px;
+  padding: 55px 0;
+}
+.section6 h2{
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.accordion-item{
+  background-color: rgb(45, 45, 45);
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  
+}
+.accordion-header button{
+  background-color: rgb(45, 45, 45);
+  color: white;
+  font-size: 24px;
+}
+.accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: #2d2d2d;
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-item:first-of-type .accordion-button {
+  border: 0px;
+}
+.section6 .membership h3{
+  color: white;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 20px 0 0 0;
+}
+.section6 .membership{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.accordion-button::after {
+
+  background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAsMCwyNTYsMjU2IgpzdHlsZT0iZmlsbDojMDAwMDAwOyI+CjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxnIHRyYW5zZm9ybT0ic2NhbGUoMTAuNjY2NjcsMTAuNjY2NjcpIj48cGF0aCBkPSJNMTEsMnY5aC05djJoOXY5aDJ2LTloOXYtMmgtOXYtOXoiPjwvcGF0aD48L2c+PC9nPgo8L3N2Zz4=') 50% 50% no-repeat !important;
+  font-size: 50px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(45deg);
+}
+footer{
+  margin: 50px 0px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  margin: 16px 0px 0px 12px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+footer a {
+  color: #b3b3b3;
+}
+
+footer a:hover{
+  color: #b3b3b3;
+}
+
+footer .col{
+  margin: 20px 0px;
+}
+
+footer .call{
+  display: flex;
+  padding-left: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #b3b3b3;
+}
+
+footer .drop2 {
+  background-color: #0f0f0f;
+  border-style: solid;
+  border-width: 0.0625rem;
+  border-radius: 0.1875rem;
+  padding: 6px 36px;
+}
+
+footer .dropdown2{
+  margin: 0px 0px 0px 40px;
+}
+
+footer .bottomtext{
+  font-size: 14px;
+  margin: 24px 0px 0px 40px;
+  color: #b3b3b3;
+}
+
+footer .drop:hover {
+  background-color: transparent;
+}
+@media only screen and (max-width: 786px) {}
+
+@media only screen and (max-width: 520px) {
+  .navcntnt {
+    padding: 5px 0px 0px; 
+  }
+  .navbar-brand img {
+    width: 5.25rem;
+    height: 2.5rem;
+}
+nav .drop {
+
+  padding: 6px 10px;
+}
+nav .signbtn {
+  color: white;
+  padding: 6px 9px;
+}
+nav .btnes {
+  gap: 10px;
+}
+.content h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.content h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.content p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.banner {
+  height: 60vh;
+}
+.content {
+  height: 50vh;
+  }
+ 
+  .sec2 {
+    margin: 0 15px;
+    padding: 40px 0;
+}
+.section2 h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.section2 p {
+     font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.stranger {
+  order: 2;
+  position: relative;
+  margin-bottom: 10px;
+}
+.section3 h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.section3 p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.contentbtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.getstartedbtn {
+ 
+  margin-top: 10px;
+  padding: 10px 30px;
+  background-color: red;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.mail input {
+  margin-top: 10px;
+  padding: 15px 74px 15px 24px;
+  background-color: rgba(46, 44, 44, 0.562);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.76);
+  font-size: 16px;
+}
+.boxcard {
+  display: flex;
+  padding: 8px 110px 2px;
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  box-shadow: 0 0 2em 0 rgb(0,0,0);
+  border-radius: 0.75rem;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  left: 6%;
+  bottom: -10px;
+  background-color: #000000;
+  width: 317px;
+}
+.section3 .things  {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  
+}
+.things1 {
+  line-height: 3px;
+  padding-top: 9px;
+  padding-right: 10px;
+}
+.section3 .download  {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+.section4 h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.section4 p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+.section4 video {
+  margin-bottom: 10px;
+}
+.section5 h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+.section5 p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+.section5 .stranger2 {
+  order: 2;
+}
+.section6 h2 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.sec3 {
+  margin: 0;
+  padding: 55px 0;
+}
+.section6 .membership h3 {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 20px 0 0 0;
+}
+.accordion-header button {
+  background-color: rgb(45, 45, 45);
+  color: white;
+  font-size: 18px;
+}
+.accordion-item {
+  background-color: rgb(45, 45, 45);
+  color: white;
+  font-size: 16px;
+  margin: 10px;
+}
+.getstartedbtn {
+  margin-top: 10px;
+  padding: 10px 30px;
+  background-color: red;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+}
